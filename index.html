@@ -7,7 +7,7 @@
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@500;700&family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;500;700&display=swap" rel="stylesheet">
 
 <title>Potifólio Jailton</title>
 
@@ -16,6 +16,7 @@
 </head>
 <body>
     <main>
+      <div class="lado">
         <section class="profile">
           <div>
             <img class="picture" src="https://github.com/jailtonj.png" 
@@ -74,30 +75,38 @@
           </ol>
         </section>
 
-        <section>
+        <section class="Technologies">
           <h3>Tecnologias</h3>
 
-          <img src="./assets/javascript.png" alt="javascript">
-
-          <img src="./assets/git.png" alt="git">
-
-          <img src="./assets/css.png" alt="css">
-
-          <img src="./assets/github.png" alt="github">
-
-          <img src="./assets/nodejs.png" alt="nodejs">
-
-          <img src="./assets/html.png" alt="html">
+          <div class="button">
+            <button>JAVASCRIPT</button>
+            <button>GIT</button>
+            <button>CSS</button>
+            <button>GITHUB</button>
+            <button>NODEJS</button>
+            <button>HTML</button>
+          </div>
         </section>
 
         <section class="Experiences">
           <h3>Experiências</h3>
-          <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
+          <ol>
+            <li>Tomtommontagens</li>
+            <p>2019 - 2022</p>
+            <p class="cargo">Gerente</p>
+
+            <li>tomtommontagens</li>
+            <p>2019 - 2022</p>
+            <p class="cargo">gerente</p>
+
+            <li>tomtommontagens</li>
+            <p>2019 - 2022</p>
+            <p class="cargo">Gerente</p>
+
+            <li>tomtommontagens</li>
+            <p>2019 - 2022</p>
+            <p class="cargo">Gerente</p>
+          </ol>
         </section>
 
         <section class="Education">
@@ -117,31 +126,41 @@
           </ul>
         </section>
 
+        </div>
+
+        <div class="lado2">
         <section class="my-projects">
           
           <h2>Meus projetos</h2>
-          <a href="https://github.com/Jailtonj?tab=repositories" 
+          <a class="decoration" href="https://github.com/Jailtonj?tab=repositories" 
           target="_blank">Veja todos</a>
 
         </section>
 
         <section class="project-1">
 
-          <a href="https://tomtommontagens.netlify.app/" target="_blank">
-            <img src="./icon/folder.svg" alt="folder">
+          <a  href="https://tomtommontagens.netlify.app/" target="_blank">
+            <img class="folder" src="./icon/folder.svg" alt="folder">
           </a>
           <h3>Site-TOM-TOM</h3>
           <p>Site da empresa Tom & Tom Montagens</p>
+          <!-- <a href="" class="number-star"><img class="star" src="./icon/star.svg" alt="">100</a>
+          <a href=""><img class="git" src="./icon/git-branch.svg" alt="">100</a> -->
+          
 
         </section>
 
         <section class="project-2">
           
           <a href="https://jailtonj.github.io/Game-Hub/" target="_blank">
-            <img src="./icon/folder.svg" alt="folder">
+            <img class="folder" src="./icon/folder.svg" alt="folder">
           </a>
           <h3>Game-Hub</h3>
           <p>Projeto desenvolvido no evento Next Level da Rocketseat</p>
+
+          <!-- <a href=""><img class="star" src="./icon/star.svg" alt="">100</a>
+          <a href=""><img class="git" src="./icon/git-branch.svg" alt="">100</a> -->
+          
 
         </section>
 
@@ -155,6 +174,7 @@
           <p class="description"> Desafio proposto no final da NLW eSports realizada pela Rocketseat</p>
           <p class="hashtags">#html #css</p>
         </section>
+      </div>
     </main>
 </body>
 </html>

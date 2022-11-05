@@ -11,9 +11,18 @@
   --bg-techs: #CB92B1;
 }
 
-
 ol {
   list-style: none;
+}
+
+.lado {
+  display: flex;
+  flex-direction: column;
+}
+
+.lado2 {
+  display: flex;
+  flex-direction: column;
 }
 
 /* Fonts */
@@ -24,6 +33,8 @@ body * {
 
 body {
  background-color: var(--body-bg-color);
+
+ 
 }
 
 /* foto de perfil */
@@ -72,17 +83,18 @@ h2, h3, p, li {
 }
 
 main {
+
   padding: 40px;
   padding-bottom: 58px;
+
+  display: flex;
 }
 
 /* links */
 .links {
-  min-height: 348px;
-  min-width: 348px;
-  max-width: 348px;
-  max-height: 348px;
-
+  height: 348px;
+  width: 348px;
+  
   background-color: var(--bg-cards);
   padding-left: 40px;
   padding-top: 30px;
@@ -91,6 +103,7 @@ main {
   margin-top: 30px;
 
   border-radius: 20px;
+  
 }
 
 .link {
@@ -106,3 +119,240 @@ main {
   margin-top: 4px;
 }
 
+/* Tecnologias */
+
+.Technologies {
+  background-color: var(--bg-cards);
+  width: 348px;
+  height: 200px;
+
+  margin-top: 30px;
+
+  border-radius: 20px;
+  
+}
+
+.Technologies h3 {
+  padding-left: 20px;
+  padding-top: 30px;
+
+  font-size: 20px;
+}
+
+button {
+  background-color: #CB92B1;
+  width: 86px;
+  height: 24px;
+  border-radius: 30px;
+  border: none;
+  font-size: 10px;
+}
+
+.button {
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  gap: 15px;
+
+  display: flex;
+  flex-flow: wrap;
+}
+
+/* Experiências */
+
+.Experiences {
+  background-color: var(--bg-cards);
+  width: 348px;
+  height: 349px;
+  margin-top: 30px;
+
+  border-radius: 20px;
+  
+}
+
+.Experiences h3 {
+  padding-top: 30px;
+  padding-left: 20px;
+
+  font-size: 20px;
+}
+
+.Experiences li {
+  list-style: inside;
+  padding-left: 40px;
+  padding-top: 11px;
+  
+}
+
+.Experiences p {
+  padding-left: 63px;
+  font-size: 13px;
+}
+
+/* Educação */
+
+.Education {
+  background-color: var(--bg-cards);
+  width: 348px;
+  height: 352px;
+  margin-top: 30px;
+
+  border-radius: 20px;
+}
+
+.Education h3 {
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+
+  font-size: 20px;
+}
+
+.Education li {
+  list-style: inside;
+  padding-left: 40px;
+}
+
+.Education p {
+  padding-left: 40px;
+  padding-bottom: 20px;
+}
+
+/* Meus projetos */
+
+.my-projects {
+  background-color: var(--bg-cards);
+  width: 952px;
+  height: 86px;
+  margin-left:  60px;
+  margin-bottom: 30px;
+  display: flex;
+  border-radius: 20px;
+}
+
+.my-projects h2 {
+  padding-left: 30px;
+  padding-top: 30px;
+
+  font-size: 20px;
+  text-decoration: none;
+}
+
+
+.my-projects a {
+  padding-left: 670px;
+  padding-right: 30px;
+  padding-top: 34px;
+
+  color: #837E9F;
+  text-decoration: none;
+}
+
+/* Projeto 1 */
+
+.project-1 {
+  background-color: var(--bg-cards);
+  max-width: 461px;
+  min-height: 186px;
+  margin-left: 60px;
+  border-radius: 20px;
+
+  display: flex;
+  flex-flow: wrap;
+  
+}
+ .project-1 img {
+  padding-top: 30px;
+  padding-left: 30px;
+ }
+
+ .project-1 h3 {
+  padding-top: 31px;
+  padding-left: 16px;
+ }
+
+ .project-1 p {
+  padding-left: 30px;
+  padding-bottom: 20px;
+ }
+
+ /* Projeto 2 */
+
+ .project-2 {
+  background-color: var(--bg-cards);
+  max-width: 461px;
+  min-height: 186px;
+  margin-left: 60px;
+  border-radius: 20px;
+
+  display: flex;
+  flex-flow: wrap;
+  
+}
+ .project-2 img {
+  padding-top: 30px;
+  padding-left: 30px;
+ }
+
+ .project-2 h3 {
+  padding-top: 31px;
+  padding-left: 16px;
+ }
+
+ .project-2 p {
+  padding-left: 30px;
+  padding-bottom: 20px;
+ }
+
+ 
+
+
+/* .profile, .links, .Technologies, .Experiences, .Education {
+  
+} */
+
+
+
+
+/* ordem */
+ /*  
+.profile:nth-child(1) {
+  order: 0;
+}
+
+.links:nth-child(2) {
+  order: 1;
+}
+
+.Technologies section:nth-child(3) {
+  order: 2;
+}
+
+.Experiences section:nth-child(4) {
+  order: 3;
+}
+
+.Education section:nth-child(5) {
+  order: 4;
+}
+
+.my-projects section:nth-child(6) {
+  order: 1;
+}
+
+.project-1 section:nth-child(7) {
+  order: 6;
+}
+
+.project-2 section:nth-child(8) {
+  order: 7;
+}
+
+.recent-posts section:nth-child(9) {
+  order: 8;
+}
+
+.post section:nth-child(10) {
+  order: 9;
+}
+*/
