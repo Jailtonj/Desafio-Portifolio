@@ -11,6 +11,12 @@
   --bg-techs: #CB92B1;
 }
 
+/* Fonts */
+
+body * {
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
 body {
  background-color: var(--body-bg-color);
 }
@@ -65,4 +71,6 @@ main {
   padding: 40px;
   padding-bottom: 58px;
 }
+
+.links {}
 
