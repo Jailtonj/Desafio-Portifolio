@@ -15,6 +15,7 @@ ol {
   list-style: none;
 }
 
+/* Adicionando o display flex */
 .lado {
   display: flex;
   flex-direction: column;
@@ -23,6 +24,16 @@ ol {
 .lado2 {
   display: flex;
   flex-direction: column;
+}
+
+.projeto-flex-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-projetos {
+  display: flex;
+  
 }
 
 /* Fonts */
@@ -282,7 +293,7 @@ button {
   background-color: var(--bg-cards);
   max-width: 461px;
   min-height: 186px;
-  margin-left: 60px;
+  margin-left: 30px;
   border-radius: 20px;
 
   display: flex;
@@ -302,9 +313,127 @@ button {
  .project-2 p {
   padding-left: 30px;
   padding-bottom: 20px;
+  padding-right: 30px;
  }
 
- 
+ /* Postes Recentes */
+
+ .recent-posts {
+  background-color: var(--bg-cards);
+  width: 952px;
+  height: 86px;
+  margin-top: 30px;
+  margin-left: 60px;
+
+  border-radius: 20px;
+ }
+
+ .recent-posts h2 {
+  padding-left: 30px;
+  padding-top: 30px;
+ }
+/* Post 1 */
+ .post {
+  background-color: var(--bg-cards);
+  width: 952px;
+  height: 201px;
+  margin-top: 30px;
+  margin-left: 60px;
+
+  border-radius: 20px;
+  display: flex;
+  
+ }
+
+ .post img {
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+
+  display: flex;
+
+  margin-left: 30px;
+  margin-top: 31px;
+ }
+
+ .post h3 {
+  padding-top: 30px;
+  padding-left: 20px;
+ }
+
+ .post p {
+  font-size: 14px;
+  padding-left: 20px;
+ }
+
+ .description {
+  font-size: 16px;
+  margin-top: 28px;
+ }
+
+ .hashtags {
+  margin-top: 11px;
+  word-spacing: 60px;
+ }
+
+
+
+ .acess {
+  margin-top: 5px;
+  margin-left: 20px;
+  background-color: rgb(20, 82, 10);
+  
+
+  width: 86px;
+  height: 24px;
+
+ }
+
+ .acess a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+ }
+
+ section:hover {
+  transform: scale(1.1);
+ }
+
+ section {
+  transition: transform 0.5s;
+ }
+
+ .lado2 {
+  opacity: 0;
+  animation: appear 1s forwards;
+}
+
+ @keyframes appear {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.lado {
+  opacity: 0;
+  animation: two 1s forwards;
+}
+
+@keyframes two {
+  0% {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
 
 
 /* .profile, .links, .Technologies, .Experiences, .Education {
