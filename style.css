@@ -449,5 +449,63 @@ button {
   main {
       display: flex;
       flex-direction: column;
+
+      padding-left: 22px;
+  }
+
+.my-projects, .recent-posts, .project-1, .project-2, .recent-posts, .post {
+  padding: 0;
+  margin: 0;
+  width: 100px;
+  height: 100px;
+}
+
+  .my-projects {
+    width: 348px;
+    margin-top: 30px;
+  }
+
+  .my-projects a {
+    padding-left: 100px;
+  }
+
+  /* meus projetos */
+  .flex-projetos {
+    flex-direction: column;
+  }
+
+  .project-1 {
+    margin-top: 30px;
+    width: 348px;
+  }
+
+  .project-2 {
+    margin-top: 30px;
+    width: 348px;
+  }
+
+  .recent-posts {
+    margin-top: 30px;
+    width: 348px;
+  }
+
+  .post {
+    margin-top: 30px;
+    width: 348px;
+    height: 450px;
+
+    flex-direction: column;
+  }
+
+  .post img{
+    margin-left: 110px;
+  }
+
+  .acess {
+    width: 200px;
+    height: 35px;
+    margin-top: 15px;
+    margin-left: 75px;
   }
 }
+
