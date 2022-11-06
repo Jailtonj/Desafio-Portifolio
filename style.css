@@ -450,7 +450,8 @@ button {
       display: flex;
       flex-direction: column;
 
-      padding-left: 46px;
+      margin-left: 15px;
+      padding-left: 0;
   }
 
 .my-projects, .recent-posts, .project-1, .project-2, .recent-posts, .post {
