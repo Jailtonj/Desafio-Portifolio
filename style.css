@@ -15,7 +15,7 @@ ol {
   list-style: none;
 }
 
-/* Adicionando o display flex */
+/*=== ADICIONANDO O DISPLAY FLEX =================================*/
 .lado {
   display: flex;
   flex-direction: column;
@@ -36,7 +36,7 @@ ol {
   
 }
 
-/* Fonts */
+/*=== FONTS =================================*/
 
 body * {
   font-family: 'Merriweather Sans', sans-serif;
@@ -48,7 +48,7 @@ body {
  
 }
 
-/* foto de perfil */
+/*=== FOTO DE PERFIL =================================*/
  .picture {
   width: 128px;
   height: 128px;
@@ -65,7 +65,7 @@ body {
   transition: transform .3s;
 }
 
-/* perfil */
+/*=== PERFIL =================================*/
 .profile {
   
   width: 348px;
@@ -101,7 +101,7 @@ main {
   display: flex;
 }
 
-/* links */
+/*=== LINKS =================================*/
 .links {
   height: 348px;
   width: 348px;
@@ -130,7 +130,7 @@ main {
   margin-top: 4px;
 }
 
-/* Tecnologias */
+/*=== TECNOLOGIAS =================================*/
 
 .Technologies {
   background-color: var(--bg-cards);
@@ -169,7 +169,7 @@ button {
   flex-flow: wrap;
 }
 
-/* Experiências */
+/*=== EXPERIÊNCIAS =================================*/
 
 .Experiences {
   background-color: var(--bg-cards);
@@ -200,7 +200,7 @@ button {
   font-size: 13px;
 }
 
-/* Educação */
+/*=== EDUCAÇÃO =================================*/
 
 .Education {
   background-color: var(--bg-cards);
@@ -229,7 +229,7 @@ button {
   padding-bottom: 20px;
 }
 
-/* Meus projetos */
+/*=== MEUS PROJETOS =================================*/
 
 .my-projects {
   background-color: var(--bg-cards);
@@ -259,7 +259,7 @@ button {
   text-decoration: none;
 }
 
-/* Projeto 1 */
+/*=== PROJETO 1 =================================*/
 
 .project-1 {
   background-color: var(--bg-cards);
@@ -287,7 +287,7 @@ button {
   padding-bottom: 20px;
  }
 
- /* Projeto 2 */
+ /*=== PROJETO 2 =================================*/
 
  .project-2 {
   background-color: var(--bg-cards);
@@ -316,7 +316,7 @@ button {
   padding-right: 30px;
  }
 
- /* Postes Recentes */
+ /*=== POSTS RECENTES =================================*/
 
  .recent-posts {
   background-color: var(--bg-cards);
@@ -332,7 +332,9 @@ button {
   padding-left: 30px;
   padding-top: 30px;
  }
-/* Post 1 */
+
+/*=== POST 1 =================================*/
+
  .post {
   background-color: var(--bg-cards);
   width: 952px;
@@ -376,24 +378,24 @@ button {
   word-spacing: 60px;
  }
 
-
-
  .acess {
-  margin-top: 5px;
-  margin-left: 20px;
-  background-color: rgb(20, 82, 10);
-  
+    margin-top: 5px;
+    margin-left: 20px;
+    background-color: rgb(20, 82, 10);
+    
 
-  width: 86px;
-  height: 24px;
+    width: 86px;
+    height: 24px;
 
  }
 
  .acess a {
-  text-decoration: none;
-  color: white;
-  font-size: 12px;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
  }
+
+/*=== animation =================================*/
 
  section:hover {
   transform: scale(1.1);
@@ -435,53 +437,17 @@ button {
   }
 }
 
+/*=== RESPONSIVIDADE =================================*/
 
-/* .profile, .links, .Technologies, .Experiences, .Education {
-  
-} */
-
-
-
-
-/* ordem */
- /*  
-.profile:nth-child(1) {
-  order: 0;
+@media (min-width: 1500px) {
+  .lado {
+    margin-left: 200px;
+  }
 }
 
-.links:nth-child(2) {
-  order: 1;
+@media (max-width: 1024px) {
+  main {
+      display: flex;
+      flex-direction: column;
+  }
 }
-
-.Technologies section:nth-child(3) {
-  order: 2;
-}
-
-.Experiences section:nth-child(4) {
-  order: 3;
-}
-
-.Education section:nth-child(5) {
-  order: 4;
-}
-
-.my-projects section:nth-child(6) {
-  order: 1;
-}
-
-.project-1 section:nth-child(7) {
-  order: 6;
-}
-
-.project-2 section:nth-child(8) {
-  order: 7;
-}
-
-.recent-posts section:nth-child(9) {
-  order: 8;
-}
-
-.post section:nth-child(10) {
-  order: 9;
-}
-*/
