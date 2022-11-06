@@ -300,6 +300,10 @@ button {
   font-size: 12px;
  }
 
+ .tomtommontagens:hover {
+  background-color: rgb(129, 199, 129);
+ }
+
  /*=== PROJETO 2 =================================*/
 
  .project-2 {
@@ -338,6 +342,10 @@ button {
   text-decoration: none;
   color: white;
   font-size: 12px;
+ }
+
+ .game:hover {
+  background-color: rgb(129, 199, 129);
  }
 
  /*=== POSTS RECENTES =================================*/
@@ -417,6 +425,10 @@ button {
     text-decoration: none;
     color: white;
     font-size: 12px;
+ }
+
+ .acess:hover {
+  background-color: rgb(129, 199, 129);
  }
 
 /*=== animation =================================*/
